@@ -1,6 +1,20 @@
 # Adobe Podcast Enhance Speech - Reverse Engineering & 100% Local Clone
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jai1aiger/adobe-podcast-enhance-clone/blob/main/quick_launch.ipynb)
+[![Local Quick Launch](https://img.shields.io/badge/Windows-1--Click%20Launch.bat-blue?logo=windows)](launch.bat)
+[![Local Web UI](https://img.shields.io/badge/Local%20UI-http%3A%2F%2Flocalhost%3A7860-success?logo=googlechrome)](http://127.0.0.1:7860)
+
 > Reverse-engineering analysis of **[podcast.adobe.com/en/enhance](https://podcast.adobe.com/en/enhance)** using **REA** (`morluto/rea`) and a complete 100% offline, local open-source implementation.
+
+---
+
+## ⚡ Quick Launch Links
+
+| Method | Access Link | Description |
+| :--- | :--- | :--- |
+| **1-Click Cloud (Free GPU)** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jai1aiger/adobe-podcast-enhance-clone/blob/main/quick_launch.ipynb) | Runs in your browser via Google Colab with free T4 GPU. |
+| **1-Click Windows** | Double-click [`launch.bat`](launch.bat) | Auto-installs dependencies and opens UI in default browser. |
+| **Local Web Interface** | [http://127.0.0.1:7860](http://127.0.0.1:7860) | Direct browser link when server is active. |
 
 ---
 
@@ -49,7 +63,7 @@ This repository provides an offline, self-hosted clone of Adobe Enhance Speech u
 
 ---
 
-## 🛠️ Quick Start
+## 🛠️ Manual CLI Instructions
 
 ### 1. Installation
 Clone this repository and install dependencies:
