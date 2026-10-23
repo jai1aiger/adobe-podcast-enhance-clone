@@ -1,0 +1,17 @@
+{
+  "evidence_id": "ev_fcdc0fd347c011f54fd0a3990ebbb959ea5c0bed2949639e2133bd0eceb5ea19",
+  "target": "https://podcast.adobe.com/en/enhance",
+  "tool": "REA (Reverse Engineer Anything)",
+  "provider": "rea-javascript-application",
+  "analysis_date": "2026-10-23",
+  "summary": {
+    "project_codename": "Phonos (phonos-server-prod)",
+    "models_detected": [
+      "ModelVersion.$.v1 (aggressive isolation, spectral gating)",
+      "ModelVersion.$.v2 (enhanced dereverberation, neural vocoder)"
+    ],
+    "client_side_inference": false,
+    "audioworklet_instances": 0,
+    "webaudio_playback_architecture": "sourceNodePair twin concurrent playback with hotswap() gain node fader"
+  }
+}

@@ -1,0 +1,7 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+resemble-enhance>=0.0.33
+deepfilternet>=0.5.6
+gradio>=4.0.0
+soundfile>=0.12.1
+numpy
